@@ -1,0 +1,55 @@
+name: Build calendar
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-calendar
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: pip install pytest
+
+      - name: Run tests
+        run: python -m pytest -q
+
+      - name: Build calendar
+        run: python build_ics.py -o akj-programs.ics 2> warnings.txt; cat warnings.txt
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- akj-programs.ics; then
+            echo "No change."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add akj-programs.ics
+          git commit -m "Update calendar ($(grep -c BEGIN:VEVENT akj-programs.ics) events)"
+          git push
+
+      # Publishes first, then fails, so an unmapped venue never blocks the feed.
+      - name: Fail if any venue timezone was unresolved
+        run: |
+          if [ -s warnings.txt ]; then
+            echo "::error::akj.org listed a venue with no timezone mapping; add it to timezones.py"
+            cat warnings.txt
+            exit 1
+          fi

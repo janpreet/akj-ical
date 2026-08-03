@@ -1,0 +1,5 @@
+#!/bin/sh
+# Block pushes that break the calendar generator.
+set -e
+if [ -x .venv/bin/python ]; then PY=.venv/bin/python; else PY=python3; fi
+exec "$PY" -m pytest -q

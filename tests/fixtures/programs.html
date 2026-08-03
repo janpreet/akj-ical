@@ -1,0 +1,847 @@
+<!DOCTYPE html> 
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+      
+        <title> AKJ.Org Programs</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="/include/css/style.css">
+        <link rel="stylesheet" href="/include/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/include/css/media.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <script src="/include/js/jquery.js"></script>
+
+        <!--ddlevelfiles for shabad search-->
+        <link rel="stylesheet" type="text/css" href="/include/ddlevelsfiles/ddlevelsmenu-base.css" />
+        <link rel="stylesheet" type="text/css" href="/include/ddlevelsfiles/ddlevelsmenu-topbar.css" />
+        <link rel="stylesheet" type="text/css" href="/include/ddlevelsfiles/ddlevelsmenu-sidebar.css" />
+        <script type="text/javascript" src="/include/ddlevelsfiles/ddlevelsmenu.js"></script>
+        <script type="text/javascript" src="/include/ddlevelsfiles/jquery.livequery.js"></script>
+        <!--ddlevelfiles for shabad search-->
+
+
+        <link href="https://cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+        <link href="/include/css/mailchimp-style.css" rel="stylesheet" type="text/css">
+
+        <link rel="icon" href="/images/fav/fav.png" type="image/png" sizes="16x16"> 
+
+        <!--mail chimp style sheet-->
+
+    </head>
+    <body>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-97402032-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+
+        <header>
+            <div class="top_header">
+                <div class="container">
+
+                    <div class="top-menu">
+                        <nav class="navbar navbar-default">
+                            <div class="container-fluid">
+                                <!-- Brand and toggle get grouped for better mobile display -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                </div>
+
+                                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="row">
+                                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                        <div class="bottm_menu rsp-div-men">  
+                                            <ul>
+                                                <li class="lft_menu"><a href="programs.php"><img src="/images/upcoming.png">Upcoming Programs</a></li>
+                                                <li class="lft_menu"><a href="keertan.php"><img src="/images/kirtan.png">Keertan</a></li>
+                                                <li class="rgt_menu"><a href="liveradio.php"><img src="/images/radio.png">AKJ.org Radio</a></li>
+
+                                                <li class="rgt_menu"><a href="livestreaming.php"><img src="/images/sound.png">Live Broadcast</a></li>
+
+                                            </ul></div>
+                                        <ul class="nav navbar-nav">
+
+                                            <li><a href="literature.php">Literature</a></li>
+                                            <li><a href="gallery.php">Gallery</a></li>
+                                            <li><a href="matrimonial.php">Matrimonial</a></li>
+                                            <li class="dropdown"><a class="dropdown-toggle"  data-toggle="dropdown" href="blog.php">Blog <span class="caret"></span></a> <ul class="dropdown-menu">
+                                                    <li><a href="blog.php?q=MQ==">Announcements</a></li>
+                                                    <li><a href="blog.php?q=Mg==">Community Alerts</a></li> 
+                                                    <li><a href="blog.php?q=Mw==">News</a></li>
+                                                    <li><a href="blog.php?q=NA==">Press Releases</a></li>
+                                                    <li><a href="blog.php?q=Ng==">Recipes</a></li>
+                                                </ul></li>
+                                            <li><a href="contribute.php">Contribute</a></li>
+                                            <li><a href="about.php">About </a></li>
+                                            <li><a href="contact.php">contact</a></li>
+                                        </ul>     
+                                        <div class="bottm_menu">  
+                                            <ul class="resp-bot-men">
+                                                <li class="lft_menu"><a href="programs.php"><img src="/images/upcoming.png">Upcoming Programs</a></li>
+                                                <li class="lft_menu"><a href="keertan.php"><img src="/images/kirtan.png">Keertan</a></li>
+                                                <li class="rgt_menu"><a href="liveradio.php"><img src="/images/radio.png">AKJ.org Radio</a></li>
+
+                                                <li class="rgt_menu"><a href="livestreaming.php"><img src="/images/sound.png">Live Broadcast</a></li>
+
+                                            </ul>
+
+                                            <ul class="menu-login">
+                                                <li><a href="login.php" >Login </a></li>
+                                                <li><a href="register.php" > Register</a></li>
+                                            </ul>
+
+                                        </div>
+
+                                    </div></div><!-- /.navbar-collapse -->
+                            </div><!-- /.container-fluid -->
+                        </nav>
+                    </div>
+
+                    <div class="left_side_menu">
+
+                        <!--  <div class="search_sec">
+                           <form action="searchdata.php" class="search-form don-se" method="get" role="search">
+                               <fieldset>
+                                   <input type="search" title="Search for:" name="q" value="" placeholder="Search" class="search-field srch">
+
+                                   <span><a href="#"></a></span>
+                               </fieldset>
+                           </form>							
+
+                       </div> -->
+
+                        <div class="search_sec hdr-src">
+                            <form action="searchdata.php"  id="formdata" onsubmit="return chksrc()" class="search-form don-se" method="get" role="search" >
+                                <fieldset>
+                                    <input type="search" title="Search for:" id="searchkey" name="q" value="" placeholder="Search" class="header-srch">
+                                    <button type="submit" id="hit" name="submit" class="btn btn-primary btn-sr-head"><i class="fa fa-search" aria-hidden="true"></i></button>
+
+                                </fieldset>
+                            </form>							
+
+                        </div>
+
+                                                    <ul class="log_register">
+                                <li><a href="login.php">Login </a></li>
+                                <li><a href="register.php"> Register</a></li>
+                            </ul>
+
+                        
+                        <ul class="social_icon">
+                            <li><a href="https://www.facebook.com/AkhandKeertaneeJathaa"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://www.youtube.com/user/akjdotorg"><i class="fa fa-youtube"></i></a></li>
+                            <li><a href="https://twitter.com/akjdotorg"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://soundcloud.com/akjdotorg" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
+                            <li><a href="https://plus.google.com/+akjorg" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                            <li><a href="https://www.instagram.com/akjdotorg/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+                        </ul>
+
+                        <div class="language">
+
+                            <form method="post" id="cntry_session_form"><input type="hidden" value="" name="cntry_id_for_ses" id="cntry_id"></form>
+                            <div class="dropdown">
+                                <button class="dropdown-toggle" type="button" data-toggle="dropdown">All<span class="caret"></span></button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="javascript:;" onclick="set_cntrysession('11')">HK</a></li><li><a href="javascript:;" onclick="set_cntrysession('1')">CA</a></li><li><a href="javascript:;" onclick="set_cntrysession('2')">IN</a></li><li><a href="javascript:;" onclick="set_cntrysession('4')">UK</a></li><li><a href="javascript:;" onclick="set_cntrysession('5')">US</a></li><li><a href="javascript:;" onclick="set_cntrysession('6')">AU</a></li><li><a href="javascript:;" onclick="set_cntrysession('7')">NZ</a></li><li><a href="javascript:;" onclick="set_cntrysession('8')">SG</a></li><li><a href="javascript:;" onclick="set_cntrysession('3')">EU</a></li><li><a href="javascript:;" onclick="set_cntrysession('9')">Other</a></li><li><a href="javascript:;" onclick="set_cntrysession('10')">All</a></li>
+                                </ul>
+                            </div>  
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div><!---end----> 
+            <div class="bottom_header">
+                <div class="container">
+                    <div class="inner_pading">
+
+                        <div class="logos">
+                            <a href="/">
+                                <img src="/images/main-logo.png">
+                            </a>
+                           <!--  <a href="/"><span class="l-name">AKJ.ORG</span></a>     --> 
+                        </div>
+                    </div>
+                </div>
+            </div><!----end--->
+        </header><!---HEADER END----->
+        <div class="shapes_hr"><img src="/images/shapes2.png"></div>
+            
+			<script type="text/javascript">
+    $('.confirmation').on('click', function () {
+        return confirm('Do you want to delete your profile permanently?');
+    });
+</script>
+			
+            <script type="text/javascript">
+                var GB_ROOT_DIR = "include/greybox/";
+            </script> 
+            <script type="text/javascript" src="/include/ajax/xajax_js/xajax.js"></script>
+            <script language="JavaScript">
+                function selectmod(val) {
+                    window.location = val;
+                    return false;
+                }
+				
+
+                $(document).ready(function () {
+                    var search = $("#searchkey").val();
+
+                    if (search != '') {
+
+                        $("#searchkey").show();
+                    } else {
+                        $("#searchkey").hide();
+
+
+                        //$("#searchkey").width().height(10);
+                    }
+
+                    $("#hit").click(function () {
+
+                        var test = $("#searchkey").val();
+                        if (test == '') {
+                            $("#searchkey").show();
+                            return false;
+                        } else {
+
+                            $("#searchkey").show();
+
+                        }
+
+                    });
+
+
+
+                    /***$("#hit,#searchkey").mouseover(function () {
+                     
+                     $("#searchkey").show();
+                     });*/
+
+                    /***  $(".hdr-src").mouseout(function () {
+                     
+                     var test = $("#searchkey").val();
+                     if (test != '') {
+                     $("#searchkey").show();
+                     
+                     } else {
+                     
+                     $("#searchkey").hide();
+                     
+                     }
+                     
+                     });***/
+
+                    $("#searchkey").blur(function () {
+
+                        var test = $("#searchkey").val();
+                        if (test != '') {
+                            $("#searchkey").show();
+
+                        } else {
+
+                            $("#searchkey").hide();
+
+                        }
+
+                    });
+                });
+                function chksrc()
+                {
+                    var val = $("#searchkey").val();
+                    //alert(val);
+                    if (val.length < 5)
+                    {
+                        alert('Enter at least 5 characters to perform search!');
+                        return false;
+                    } else
+                    {
+                        return true;
+                    }
+                }
+            </script>
+        
+        	<script type="text/javascript">
+var xajaxRequestUri="https://www.akj.org/programs.php";
+var xajaxDebug=false;
+var xajaxStatusMessages=true;
+var xajaxWaitCursor=true;
+var xajaxDefinedGet=0;
+var xajaxDefinedPost=1;
+function xajax_uniqueuseremail(){return xajax.call("uniqueuseremail", arguments, 1);}
+function xajax_filterMonth(){return xajax.call("filterMonth", arguments, 1);}
+function xajax_countryLocation(){return xajax.call("countryLocation", arguments, 1);}
+</script>
+	<script type="text/javascript" src="../include/ajax/xajax_js/xajax.js"></script>
+
+<link href='include/css/style-changed.css' rel='stylesheet' />
+<div class="kirtans_updates test_updates">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-12 col-lg-12 inner_kirtans_updates">
+                <h2>programs</h2>
+                <h4>Join us in activities, Keertan Smaagams that will take place in near future</h4>
+                <div><ol class="breadcrumb">
+                        <li><a href="index.php">Home</a></li>
+                        <li class="active"><a href="programs.php">Programs</a></li>
+
+                    </ol> </div>
+            </div>
+        </div>
+		 
+   </div>
+</div><!--end--hukm_nam_sec---->  
+
+<div class="container">
+    <div class="row">
+        <div class="prg-cal-nw">
+            <form method="get" action="">
+                <div class="selected_opr kirtan_serch">
+                    <div class="col-md-3 col-xs-12 selectParent">
+                    <!--    <select class="selectpicker" name="srch_cont" onchange="countryLocation(this.value);">-->
+                        <select class="selectpicker" name="srch_cont" onchange="set_cntrysession(this.value);">
+                            <option value="">Select Country</option><option value='11'>HongKong</option><option value='1'>Canada</option><option value='2'>India</option><option value='4'>UK</option><option value='5'>USA</option><option value='6'>Australia</option><option value='7'>NewZealand</option><option value='8'>Singapore</option><option value='3'>Europe</option><option value='9'>Other</option><option value='10' selected='selected' >All</option>
+                        </select>
+                    </div> 
+					<div class="col-md-3 col-xs-12 selectParent">
+                        <select class="selectpicker" name="srch_loc" id="keert_loc" onchange="filterMonth(this.value);">
+                            <option value="">--Select Location--</option><option value="95">Adelaide</option><option value="157">Agra</option><option value="20">Ambala</option><option value="15">Amritsar</option><option value="26">AnandpurSahib</option><option value="146">Atlanta</option><option value="105">BabaBakala</option><option value="104">Bakersfield</option><option value="21">Bareilly</option><option value="30">Batala</option><option value="47">Bathinda</option><option value="39">Bay Area</option><option value="148">Bhopal</option><option value="126">Birmingham</option><option value="122">Boston</option><option value="132">Bradford</option><option value="81">Brisbane</option><option value="160">Camberley</option><option value="99">Canberra</option><option value="31">ChamkaurSahib</option><option value="1">Chandigarh</option><option value="107">Chchrari</option><option value="61">Chicago</option><option value="134">Coventry</option><option value="62">Dallas</option><option value="22">Dayalpur</option><option value="93">Dayton</option><option value="28">Delhi</option><option value="7">Denmark</option><option value="137">Denver</option><option value="120">DeraBabaNanak</option><option value="127">Derby</option><option value="69">Detroit</option><option value="145">Dharamkot</option><option value="101">Doraha</option><option value="153">Durham</option><option value="2">Edmonton</option><option value="34">FatehgarhSahib</option><option value="67">France</option><option value="142">Fresno</option><option value="135">Germany</option><option value="77">GoindwalSahib</option><option value="114">GonianaMandi</option><option value="159">Gravesend</option><option value="111">Gurdaspur</option><option value="144">Gwalior</option><option value="161">HazurSahib</option><option value="8">Holland</option><option value="27">Hoshiarpur</option><option value="133">Ilford</option><option value="79">Indianapolis</option><option value="66">Italy</option><option value="147">Jagraon</option><option value="23">Jalandhar</option><option value="68">Kanpur</option><option value="115">Kapurthala</option><option value="138">Karnal</option><option value="84">Khanna</option><option value="19">Kharar</option><option value="121">KumarHatti</option><option value="156">Kurali</option><option value="118">Las Vegas</option><option value="130">Leeds</option><option value="129">Leicester</option><option value="40">Los Angeles</option><option value="110">Lucknow</option><option value="33">Ludhiana</option><option value="49">MachhiwaraSahib</option><option value="83">Mandi</option><option value="123">Mansa</option><option value="73">Melbourne</option><option value="87">Moga</option><option value="150">Montreal</option><option value="75">MuktsarSahib</option><option value="46">Mumbai</option><option value="42">NY/NJ/CT</option><option value="108">NawanShahar</option><option value="9">New Zealand</option><option value="140">Niagara Falls</option><option value="151">Nottingham</option><option value="94">Orlando</option><option value="86">Ottawa</option><option value="109">Paatran</option><option value="96">Panipat</option><option value="29">PaontaSahib</option><option value="25">Patiala</option><option value="24">PatnaSahib</option><option value="125">Peterborough</option><option value="82">Phagwara</option><option value="74">Ropar</option><option value="162">Saharanpur</option><option value="90">Sangrur</option><option value="63">Seattle</option><option value="41">Selma</option><option value="88">Shepparton</option><option value="13">Shimla</option><option value="37">Singapore</option><option value="97">Sirsa</option><option value="131">Slough</option><option value="128">Southall</option><option value="65">Spain</option><option value="64">Sweden</option><option value="98">Sydney</option><option value="113">Tarantaran</option><option value="141">Telford</option><option value="35">Toronto</option><option value="89">UAE</option><option value="119">Utah</option><option value="112">Vadodara</option><option value="36">Vancouver</option><option value="106">Virginia</option><option value="158">Walsall</option><option value="152">West Bromwich</option><option value="149">Windsor</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 col-xs-12 selectParent">
+                        <select class="selectpicker" name="srch_mn" id="keert_mn" >
+                            <option value=""selected=selected>Select Month</option><option value=8>August</option><option value=9>September</option><option value=10>October</option><option value=11>November</option><option value=12>December</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3 col-xs-12">
+                        <input type="submit" value="View Programs" name="prg_srch" class="btn btn-primary">
+                        <!--<button type="submit" class="btn btn-primary">View Programs</button>-->
+                    </div>  
+                </div>
+            </form>
+            <!--custom calendar-->
+            <div style="display:none;"><div id="calendar" class="custom-calendar"><div class="box"><div class="header"><a class="prev" href="/programs.php?month=07&year=2026&srch_loc=">Prev</a><span class="title">2026 Aug</span><a class="next" href="/programs.php?month=09&year=2026&srch_loc=">Next</a></div></div><div class="box-content"><ul class="label 1"><li class="start title title">Sun</li><li class="start title title">Mon</li><li class="start title title">Tue</li><li class="start title title">Wed</li><li class="start title title">Thu</li><li class="start title title">Fri</li><li class="start title title">Sat</li></ul><div class="clear"></div><ul class="dates"><a class="" onclick=""><li id="li-" class=" end mask"></li></a><a class="" onclick=""><li id="li-" class=" start mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-2026-08-01" class=" ">1</li></a><a class="" onclick=""><li id="li-2026-08-02" class=" end ">2</li></a><a class="selected-date event-date" onclick="gotodate('2026-08-03','');"href='javascript:;'><li id="li-2026-08-03" class=" start ">3</li></a><a class=" event-date" onclick="gotodate('2026-08-04','');"href='javascript:;'><li id="li-2026-08-04" class=" ">4</li></a><a class=" event-date" onclick="gotodate('2026-08-05','');"href='javascript:;'><li id="li-2026-08-05" class=" ">5</li></a><a class=" event-date" onclick="gotodate('2026-08-06','');"href='javascript:;'><li id="li-2026-08-06" class=" ">6</li></a><a class=" event-date" onclick="gotodate('2026-08-07','');"href='javascript:;'><li id="li-2026-08-07" class=" ">7</li></a><a class=" event-date" onclick="gotodate('2026-08-08','');"href='javascript:;'><li id="li-2026-08-08" class=" ">8</li></a><a class=" event-date" onclick="gotodate('2026-08-09','');"href='javascript:;'><li id="li-2026-08-09" class=" end ">9</li></a><a class="" onclick=""><li id="li-2026-08-10" class=" start ">10</li></a><a class="" onclick=""><li id="li-2026-08-11" class=" ">11</li></a><a class="" onclick=""><li id="li-2026-08-12" class=" ">12</li></a><a class=" event-date" onclick="gotodate('2026-08-13','');"href='javascript:;'><li id="li-2026-08-13" class=" ">13</li></a><a class=" event-date" onclick="gotodate('2026-08-14','');"href='javascript:;'><li id="li-2026-08-14" class=" ">14</li></a><a class=" event-date" onclick="gotodate('2026-08-15','');"href='javascript:;'><li id="li-2026-08-15" class=" ">15</li></a><a class=" event-date" onclick="gotodate('2026-08-16','');"href='javascript:;'><li id="li-2026-08-16" class=" end ">16</li></a><a class="" onclick=""><li id="li-2026-08-17" class=" start ">17</li></a><a class="" onclick=""><li id="li-2026-08-18" class=" ">18</li></a><a class="" onclick=""><li id="li-2026-08-19" class=" ">19</li></a><a class="" onclick=""><li id="li-2026-08-20" class=" ">20</li></a><a class="" onclick=""><li id="li-2026-08-21" class=" ">21</li></a><a class=" event-date" onclick="gotodate('2026-08-22','');"href='javascript:;'><li id="li-2026-08-22" class=" ">22</li></a><a class="" onclick=""><li id="li-2026-08-23" class=" end ">23</li></a><a class="" onclick=""><li id="li-2026-08-24" class=" start ">24</li></a><a class="" onclick=""><li id="li-2026-08-25" class=" ">25</li></a><a class="" onclick=""><li id="li-2026-08-26" class=" ">26</li></a><a class="" onclick=""><li id="li-2026-08-27" class=" ">27</li></a><a class="" onclick=""><li id="li-2026-08-28" class=" ">28</li></a><a class=" event-date" onclick="gotodate('2026-08-29','');"href='javascript:;'><li id="li-2026-08-29" class=" ">29</li></a><a class="" onclick=""><li id="li-2026-08-30" class=" end ">30</li></a><a class="" onclick=""><li id="li-2026-08-31" class=" start ">31</li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a><a class="" onclick=""><li id="li-" class=" mask"></li></a></ul><div class="clear"></div></div></div></div>
+
+        </div>
+    </div>
+		<div class="row">
+		<div class="flex_type">
+			<div class="list-group-btn"><ol class="breadcrumb">
+                        <li class="active"><a id="gridlink" href="programs.php">Detail View</a></li>
+						<li ><a id="listlink" href="programs-list-view.php">List View</a></li>
+
+             </ol> 
+			 </div> 
+			 <div class="link_butons_type">
+				   <a href="https://www.akj.org/newsletter.php"><button type="button"  class="btn btn-default">Join our Mailing or SMS List</button></a>
+			 </div>
+			</div>
+    </div>
+<!--	<div id="divgrid">Grid content here</div>
+<div id="divlist" style="display:none">List content here</div>-->
+</div>
+
+
+<div class="container">
+                                <!--programs new design-->
+
+                            <div class="">
+                                <div class="programs" id="divlist" >
+                                    <div class="programs-cntr">
+                                        <h4 class="prog-det-title">
+                                            Program detail
+                                                                                            <form method="post" action="" name="exportForm" class="visible-xs">
+                                                    <input type="image" alt="Export Programs" title="Export Programs" src="images/cal.png">
+                                                    <input type="hidden" value="export" name="export" >
+                                                </form>
+                                                                                    </h4>
+										<h4 class='prog-det-title prog-sch-col hidden-xs'>
+											Schedule
+										</h4>
+                                        <h4 class="prog-cnt-title hidden-xs">
+                                            Contacts
+                                                                                            <form method="post" action="" name="exportForm">
+                                                    <input type="image" alt="Export Programs" title="Export Programs" src="images/cal.png">
+                                                    <input type="hidden" value="export" name="export" >
+                                                </form>
+                                                                                    </h4>
+                                         <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUxOQ==">Sree Akhand Paatth Saaheb</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Bhai Tek Singh Jee's residence</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/20 Richland crescent" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;20 Richland crescent</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/20 Richland crescent" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-01, Saturday To 2026-08-03, Monday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 10:00 AM to 10:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/20 Richland crescent" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUxOQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQ5Ng==">Akhand Keertan Smaagam</a></h4><h4 class="prog-lc">Shaheedee Smaagam</h4><h4 class="prog-lc">Southall</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Gurdwara, Park Avenue, Southall, UB1 3AG" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Sri Guru Singh Sabha Gurdwara, Park Avenue, Southall, UB1 3AG</a></h4><h4 class="prog-st">Southall (South UK )</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Gurdwara, Park Avenue, Southall, UB1 3AG" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-04, Tuesday To 2026-08-09, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 4:30 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Gurdwara, Park Avenue, Southall, UB1 3AG" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQ5Ng=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Programs as per the poster.<br />
+<br />
+For more information, please contact us at 44 7462 659806.<br />
+<br /></p><div class = "prg-poster"><a href = "Media/ProgramPoster/SouthallUKAug2026.jpeg" target = "_blank"><img src = "Media/ProgramPoster/SouthallUKAug2026.jpeg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0NQ==">Anand Kaaraj and Akhand Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 3 & 4)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-08, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:00 AM to 12:00 PM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0NQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><div style="text-align:left;"><a href = "Media/ProgramPoster/Weddingcard.pdf" target = "_blank"><img src = "images/pdf-icon-program.png"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU4Ng==">Raensabaayee Keertan</a></h4><h4 class="prog-lc">Shukrana Samagam</h4><h4 class="prog-lc">Gurudwara Jot Parkash Saheeb (Hall - 6)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/135 Sun Pac Blvd, Brampton" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;135 Sun Pac Blvd, Brampton</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/135 Sun Pac Blvd, Brampton" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-08, Saturday To 2026-08-09, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 8:00 PM to 2:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/135 Sun Pac Blvd, Brampton" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU4Ng=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><div class = "prg-poster"><a href = "Media/ProgramPoster/ShukranaKirtanpage0001.jpg" target = "_blank"><img src = "Media/ProgramPoster/ShukranaKirtanpage0001.jpg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYzNw==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Various Locations Across the Ambala</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Gobind Nagar, Ambala" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gobind Nagar, Ambala</a></h4><h4 class="prog-st">Ambala (HR)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Gobind Nagar, Ambala" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-13, Thursday To 2026-08-16, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Gobind Nagar, Ambala" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYzNw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><h3 data-path-to-node="2"><b data-path-to-node="2" data-index-in-node="0">ਕੇਂਦਰੀ ਸਾਲਾਨਾ ਅਖੰਡ ਕੀਰਤਨ ਸਮਾਗਮ</b></h3>
+<p data-path-to-node="3"><b data-path-to-node="3" data-index-in-node="0">ਅੰਬਾਲਾ ਛਾਉਣੀ</b></p>
+<p data-path-to-node="4"><b data-path-to-node="4" data-index-in-node="0">ਮਿਤੀ :- 13, 14, 15 ਅਤੇ 16 ਅਗਸਤ 2026</b></p>
+<p data-path-to-node="6"><b data-path-to-node="6" data-index-in-node="0">ਗੁਰੂ ਪਿਆਰੇ ਖਾਲਸਾ ਜੀਓ,</b> ਹਰ ਸਾਲ ਦੀ ਤਰ੍ਹਾਂ ਇਸ ਸਾਲ ਵੀ 1947 ਦੇ ਸ਼ਹੀਦਾਂ ਅਤੇ ਹੋਰ ਸਮੂਹ ਸ਼ਹੀਦਾਂ ਦੀ ਯਾਦ ਵਿਚ ਅਖੰਡ ਕੀਰਤਨ ਸਮਾਗਮ ਮਿਤੀ 13, 14, 15 ਅਤੇ 16 ਅਗਸਤ 2026 ਨੂੰ ਗੁਰਦੁਆਰਾ ਗੋਬਿੰਦ ਨਗਰ ਅੰਬਾਲਾ ਛਾਉਣੀ ਵਿਖੇ ਹੋ ਰਹੇ ਹਨ। ਇਸ ਸਮਾਗਮ ਵਿਚ ਦੇਸ਼-ਵਿਦੇਸ਼ਾਂ ਤੋਂ ਕੀਰਤਨੀ ਸਿੰਘ ਤੇ ਸਿੰਘਣੀਆਂ ਹਾਜ਼ਰੀ ਭਰਨਗੇ। ਆਏ ਦੀਦਾਰੇ ਬਖਸ਼ੋ ਜੀ।</p>
+<h3 data-path-to-node="8"><b data-path-to-node="8" data-index-in-node="0"><i data-path-to-node="8" data-index-in-node="0">*</i> ਪ੍ਰੋਗਰਾਮ <i data-path-to-node="8" data-index-in-node="11">*</i></b></h3>
+<p data-path-to-node="9"><b data-path-to-node="9" data-index-in-node="0">ਮਿਤੀ 13-08-26 ਵੀਰਵਾਰ</b></p>
+<ul data-path-to-node="10">
+    <li>
+    <p data-path-to-node="10,0,0"><b data-path-to-node="10,0,0" data-index-in-node="0">ਸਵੇਰੇ:</b> ਅੰਮ੍ਰਿਤ ਵੇਲੇ ਕੀਰਤਨ ਆਸਾ ਦੀ ਵਾਰ ਅਤੇ ਅਰੰਭ ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ ਸਵੇਰੇ 8 ਵਜੇ ਗੁਰਦੁਆਰਾ ਗੋਬਿੰਦ ਨਗਰ ਅੰ. ਛਾਉਣੀ ਵਿਖੇ</p>
+    </li>
+    <li>
+    <p data-path-to-node="10,1,0"><b data-path-to-node="10,1,0" data-index-in-node="0">ਸ਼ਾਮ ਵੇਲੇ:</b> ਸ਼ਾਮ ਵੇਲੇ ਦੇ ਕੀਰਤਨ ਦੀਵਾਨ 6:00 ਤੋਂ 10:00 ਵਜੇ ਤਕ ਗੁ: ਗੁਰੂ ਸਰ ਸਾਹਿਬ ਫੇਸ 1, ਜੱਗੀ ਕਲੋਨੀ, ਅੰ: ਸ਼ਹਿਰ। ਵੱਲੋਂ ਸ: ਭਗਵੰਤ ਸਿੰਘ (ਮੋਬ. 9354341243)</p>
+    </li>
+</ul>
+<p data-path-to-node="11"><b data-path-to-node="11" data-index-in-node="0">ਮਿਤੀ 14-08-26 ਸ਼ੁੱਕਰਵਾਰ</b></p>
+<ul data-path-to-node="12">
+    <li>
+    <p data-path-to-node="12,0,0"><b data-path-to-node="12,0,0" data-index-in-node="0">ਸਵੇਰੇ:</b> ਕੀਰਤਨ ਦੀਵਾਨ ਸਵੇਰੇ 8:30 ਤੋਂ 1:00 ਤਕ ਗੁ: ਸ੍ਰੀ ਪੰਜੋਖਰਾ ਸਾਹਿਬ ਪਾ: ੮, ਅੰ. ਛਾਉਣੀ ਵਿਖੇ</p>
+    </li>
+    <li>
+    <p data-path-to-node="12,1,0"><b data-path-to-node="12,1,0" data-index-in-node="0">ਸ਼ਾਮ ਵੇਲੇ:</b> ਸ਼ਾਮ ਵੇਲੇ ਦੇ ਕੀਰਤਨ ਦੀਵਾਨ 6:00 ਤੋਂ 9:00 ਵਜੇ ਤਕ ਗੁ: ਸ੍ਰੀ ਗੁਰੂ ਸਿੰਘ ਸਭਾ ਹਰਗੋਲਾਲ ਰੋਡ, ਅੰ. ਛਾਉਣੀ ਵਿਖੇ</p>
+    </li>
+</ul>
+<p data-path-to-node="13"><b data-path-to-node="13" data-index-in-node="0">ਮਿਤੀ 15-08-26 ਸ਼ਨੀਵਾਰ</b></p>
+<ul data-path-to-node="14">
+    <li>
+    <p data-path-to-node="14,0,0"><b data-path-to-node="14,0,0" data-index-in-node="0">ਸਵੇਰੇ:</b> ਭੋਗ ਸ੍ਰੀ ਅਖੰਡ ਪਾਠ ਸਾਹਿਬ ਉਪਰੰਤ ਕੀਰਤਨ ਦਿਵਸ ਸੁਹੇਲਾ ਦੁਪਹਿਰ 3:00 ਵਜੇ ਤਕ ਗੁ: ਗੋਬਿੰਦ ਨਗਰ</p>
+    </li>
+    <li>
+    <p data-path-to-node="14,1,0"><b data-path-to-node="14,1,0" data-index-in-node="0">ਰਾਤ:</b> ਰੈਣਿ ਸਬਾਈ ਕੀਰਤਨ ਗੁ: ਗੋਬਿੰਦ ਨਗਰ</p>
+    </li>
+</ul>
+<h3 data-path-to-node="16"><b data-path-to-node="16" data-index-in-node="0">ਵਿਸ਼ੇਸ਼ ਸਮਾਗਮ</b></h3>
+<ul data-path-to-node="17">
+    <li>
+    <p data-path-to-node="17,0,0"><b data-path-to-node="17,0,0" data-index-in-node="0">ਅੰਮ੍ਰਿਤ ਸੰਚਾਰ ਸਮਾਗਮ</b></p>
+    <ul data-path-to-node="17,0,1">
+        <li>
+        <p data-path-to-node="17,0,1,0,0">ਮਿਤੀ 15-08-26 ਸ਼ਨੀਵਾਰ</p>
+        </li>
+        <li>
+        <p data-path-to-node="17,0,1,1,0">ਸ਼ਾਮ 7:00 ਵਜੇ</p>
+        </li>
+        <li>
+        <p data-path-to-node="17,0,1,2,0">ਗੁ: ਗੋਬਿੰਦ ਨਗਰ</p>
+        </li>
+    </ul>
+    </li>
+    <li>
+    <p data-path-to-node="17,1,0"><b data-path-to-node="17,1,0" data-index-in-node="0">ਰੈਣਿ ਸਬਾਈ ਕੀਰਤਨ</b></p>
+    <ul data-path-to-node="17,1,1">
+        <li>
+        <p data-path-to-node="17,1,1,0,0">ਆਰੰਭ ਮਿਤੀ 15-08-26 ਸ਼ਨੀਵਾਰ</p>
+        </li>
+        <li>
+        <p data-path-to-node="17,1,1,1,0">ਸ਼ਾਮ 7:00 ਤੋਂ ਅਗਲੀ ਸਵੇਰ 5:00 ਤਕ</p>
+        </li>
+    </ul>
+    </li>
+</ul>
+<blockquote data-path-to-node="19">
+<p data-path-to-node="19,0">📺 <b data-path-to-node="19,0" data-index-in-node="3">ਲਾਈਵ ਟੈਲੀਕਾਸਟ:</b> <b data-path-to-node="19,0" data-index-in-node="59">Akj.org</b></p>
+</blockquote>
+<p data-path-to-node="21"><b data-path-to-node="21" data-index-in-node="0">ਜ਼ਰੂਰੀ ਨੋਟ:</b></p>
+<ol start="1" data-path-to-node="22">
+    <li>
+    <p data-path-to-node="22,0,0">ਲੰਗਰ ਅਤੇ ਰਿਹਾਇਸ਼ ਦਾ ਪ੍ਰਬੰਧ ਗੁ: ਗੋਬਿੰਦ ਨਗਰ ਅੰ: ਛਾਉਣੀ) ਵਿਖੇ ਹੈ।</p>
+    </li>
+    <li>
+    <p data-path-to-node="22,1,0">ਲੋੜ ਅਨੁਸਾਰ ਪ੍ਰੋਗਰਾਮ ਵਿਚ ਤਬਦੀਲੀ ਕੀਤੀ ਜਾ ਸਕਦੀ ਹੈ।</p>
+    </li>
+    <li>
+    <p data-path-to-node="22,2,0">ਪ੍ਰਬੰਧਕਾਂ ਵੱਲੋਂ ਉਲੀਕੇ ਪ੍ਰੋਗਰਾਮ ਵਿਚ ਕਿਸੇ ਨੂੰ ਦਖਲ ਦੇਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।</p>
+    </li>
+</ol>
+<p data-path-to-node="24">📞 <b data-path-to-node="25" data-index-in-node="3">ਪੁੱਛਗਿੱਛ (Contact):</b> 94160-94103, 93068-21003, 94165-51851</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQyNw==">Sree Akhand Paatth Saaheb</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Toronto Sikh Education Center</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Brampton" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;13230 Centerville Creek Road, Brampton</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Brampton" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-14, Friday To 2026-08-16, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:00 AM to 10:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Brampton" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQyNw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Friday Aug 14 - Aasaa Kee Vaar - 5am-7am, Arambh Akhand Paath Saaheb</p>
+<p>Sunday Aug 16 - Bhog and Keertan - 6am-10am<br />
+<br />
+From: Gurjit Singh Jee's Family and Vikramjeet Singh Jee's Family</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0OA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-15, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0OA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0Mg==">Akhand Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Bhai Gurpreet Singh Jee's Residence</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/51 sandyshores drive" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;51 sandyshores drive</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/51 sandyshores drive" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-15, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:00 PM to 9:00 PM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/51 sandyshores drive" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0Mg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=MzcwMg==">Akhand Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Sikh Gurdwara San Jose</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148, USA" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;3636 Gurdwara Ave, San Jose, CA 95148, USA</a></h4><h4 class="prog-st">Bay Area (CA)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148, USA" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-15, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 9:00 PM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"><a href='mailto:sevaa@isangat.org'>AKJ Bay Area California</a>: 503 929 4252 | 408 540 6680<br> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148, USA" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=MzcwMg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p><span style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">3636 Gurdwara Avenue</span></p>
+<p><span style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">San Jose, CA 95148</span></p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0Nw==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-22, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0Nw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0Ng==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-08-29, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0Ng=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0OQ==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc">Dedicated to Dhan Shri Guru Granth Sahib Jee Parkash Purab</h4><h4 class="prog-lc">Gurdwara Sahib of Stockton</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/1930 Sikh Temple St, Stockton, CA 95206" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;1930 Sikh Temple St, Stockton, CA 95206</a></h4><h4 class="prog-st">Bay Area (CA)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/1930 Sikh Temple St, Stockton, CA 95206" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-04, Friday To 2026-09-07, Monday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/1930 Sikh Temple St, Stockton, CA 95206" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0OQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;Annual Stockton Calilfonia Smagam Sep 4th - Sept 7th.</p><div class = "prg-poster"><a href = "Media/ProgramPoster/AnnualStocktonSamagam2026.png" target = "_blank"><img src = "Media/ProgramPoster/AnnualStocktonSamagam2026.png"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0NQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-05, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0NQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYzOQ==">Raensabaayee Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurudwara Sahib Hans Kalan, </h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Gurudwara Sahib Hans Kalan, " target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gurudwara Sahib Hans Kalan, </a></h4><h4 class="prog-st">Chchrari (PB)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Gurudwara Sahib Hans Kalan, " target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-05, Saturday To 2026-09-06, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Gurudwara Sahib Hans Kalan, " target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYzOQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDM4MQ==">Raensabaayee Keertan</a></h4><h4 class="prog-lc">In Remembrance of Bhai Jaswant Singh Khalra Jee's Shaheedi</h4><h4 class="prog-lc">Jaswant Singh Khalra Khalsa School</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/255 Queen St E, Brampton, ON L6W 2B8" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;255 Queen St E, Brampton, ON L6W 2B8</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/255 Queen St E, Brampton, ON L6W 2B8" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-05, Saturday To 2026-09-06, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 3:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/255 Queen St E, Brampton, ON L6W 2B8" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDM4MQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0NA==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Sector 34-D, Chandigarh</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Gurudwara Sahib, Sector 34-D, Chandigarh" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gurudwara Sahib, Sector 34-D, Chandigarh</a></h4><h4 class="prog-st">Chandigarh (PB)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Gurudwara Sahib, Sector 34-D, Chandigarh" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-07, Monday To 2026-09-13, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:00 AM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Gurudwara Sahib, Sector 34-D, Chandigarh" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0NA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><div class = "prg-poster"><a href = "Media/ProgramPoster/ChandigarhSgmSep2026.jpg.jpeg" target = "_blank"><img src = "Media/ProgramPoster/ChandigarhSgmSep2026.jpg.jpeg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0OA==">Sree Akhand Paatth Saaheb</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Toronto Sikh Education Centre</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Brampton" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;13230 Centerville Creek Road, Brampton</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Brampton" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-11, Friday To 2026-09-13, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 4:00 AM to 10:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Brampton" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0OA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Aarambh - Friday: Aasa Di Vaar 4am - 7am<br />
+Bhog Akhand Patth Saheb - Sunday (5am) followed by Aasa Di Vaar 5am - 10am<br />
+<br />
+From: Bhai Parminder Singh Jee &amp; Family</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0NA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-12, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0NA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDE5Ng==">Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Khalsa Prakash Windsor</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7955 County Rd 42, Maidstone, ON N0R 1K0 " target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7955 County Rd 42, Maidstone, ON N0R 1K0 </a></h4><h4 class="prog-st">Windsor (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7955 County Rd 42, Maidstone, ON N0R 1K0 " target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-18, Friday To 2026-09-20, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7955 County Rd 42, Maidstone, ON N0R 1K0 " target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDE5Ng=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Programs as per the poster...</p><div class = "prg-poster"><a href = "Media/ProgramPoster/IMG2754.png" target = "_blank"><img src = "Media/ProgramPoster/IMG2754.png"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQ5Nw==">Akhand Keertan Smaagam</a></h4><h4 class="prog-lc">Guru Granth Sahib Parkash</h4><h4 class="prog-lc">Slough</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Gurdwara, Sheehy Way, Berkshire, SLOUGH SL2 5SS" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Sri Guru Singh Sabha Gurdwara, Sheehy Way, Berkshire, SLOUGH SL2 5SS</a></h4><h4 class="prog-st">Slough (South UK )</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Gurdwara, Sheehy Way, Berkshire, SLOUGH SL2 5SS" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-18, Friday To 2026-09-20, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Gurdwara, Sheehy Way, Berkshire, SLOUGH SL2 5SS" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQ5Nw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0Mw==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-19, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0Mw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDM3MQ==">Akhand Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Sikh Gudwara San Jose</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;3636 Gurdwara Ave, San Jose, CA 95148</a></h4><h4 class="prog-st">Bay Area (CA)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-19, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 9:00 PM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDM3MQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;<span style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">Please join &quot;https://akj.org/bayarea Akhand Keertan Programs&quot; WhatsApp group for reminders by asking for invite from local sangat.&nbsp;</span></p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0Mw==">Sree Akhand Paatth Saaheb</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Bhai Sandeep Singh Jee's Residence</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/9 Welch Court, St. Thomas, Ontario" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;9 Welch Court, St. Thomas, Ontario</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/9 Welch Court, St. Thomas, Ontario" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-25, Friday To 2026-09-27, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/9 Welch Court, St. Thomas, Ontario" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0Mw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;Sept 27, 2026 - Akhand Patth Saheb Bhog &amp; Aasa Di Vaar (6am- 9am)</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0Mg==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-09-26, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0Mg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQ3NA==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Guru Nanak Darbar, Southington, CT</h4><h4 class="prog-st">NY/NJ/CT (Connecticut)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-01, Thursday To 2026-10-04, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQ3NA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU0MQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-03, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU0MQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY1MQ==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurudwara Sri Arjun Dev Sahib Ji, New Model Town, Amloh Road, Khanna</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Amloh - Khanna Rd, Guru Nanak Nagar, New model town, Khanna, Punjab 141401" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Amloh - Khanna Rd, Guru Nanak Nagar, New model town, Khanna, Punjab 141401</a></h4><h4 class="prog-st">Khanna (PB)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Amloh - Khanna Rd, Guru Nanak Nagar, New model town, Khanna, Punjab 141401" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-09, Friday To 2026-10-11, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Amloh - Khanna Rd, Guru Nanak Nagar, New model town, Khanna, Punjab 141401" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY1MQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><div class = "prg-poster"><a href = "Media/ProgramPoster/KhannaSamagamOct2026w.jpg" target = "_blank"><img src = "Media/ProgramPoster/KhannaSamagamOct2026w.jpg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=MzA3NQ==">Sree Akhand Paatth Saaheb</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">KM School</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/11499 The Gore Rd, Brampton" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;11499 The Gore Rd, Brampton</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/11499 The Gore Rd, Brampton" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-10, Saturday To 2026-10-12, Monday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 4:00 AM to 10:30 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/11499 The Gore Rd, Brampton" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=MzA3NQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Aasaa Kee Vaar - Saturday Morning - 4:00am-7:30am</p>
+<p>Arambh Shree Akhandh Paath Saaheb - Saturday Morning - 8:00am</p>
+<p>Bhog Shree Akhand Paath Saaheb - Monday Morning - 6:00am</p>
+<p>Aasaa Kee Vaar Keertan -&nbsp; 6:30am-10:30am</p><div class = "prg-poster"><a href = "Media/ProgramPoster/GuruRamdasJeeAkhandhPaathKeertan.jpeg" target = "_blank"><img src = "Media/ProgramPoster/GuruRamdasJeeAkhandhPaathKeertan.jpeg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYwNA==">Raensabaayee Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Residence of Bh. Jaswinder Singh Jee (Delaware)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/108 West Reamer Avenue, Wilmington DE 1980" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;108 West Reamer Avenue, Wilmington DE 1980</a></h4><h4 class="prog-st">NY/NJ/CT (Delaware)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/108 West Reamer Avenue, Wilmington DE 1980" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-10, Saturday To 2026-10-11, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/108 West Reamer Avenue, Wilmington DE 1980" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYwNA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><div class = "prg-poster"><a href = "Media/ProgramPoster/DERainsabie2026.jpg" target = "_blank"><img src = "Media/ProgramPoster/DERainsabie2026.jpg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDI1Nw==">Raensabaayee Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc"> Sri Gurudwara Jot Parkash Sahib</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/135 Sun Pac Blvd, Brampton, ON L6S 5Z6" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;135 Sun Pac Blvd, Brampton, ON L6S 5Z6</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/135 Sun Pac Blvd, Brampton, ON L6S 5Z6" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-10, Saturday To 2026-10-11, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 8:00 PM to 3:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/135 Sun Pac Blvd, Brampton, ON L6S 5Z6" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDI1Nw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY1Mg==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Various Gurdwara Saahebs Across the Delhi</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Various Gurdwara Saahebs Across the Delhi" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Various Gurdwara Saahebs Across the Delhi</a></h4><h4 class="prog-st">Delhi (Delhi)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Various Gurdwara Saahebs Across the Delhi" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-14, Wednesday To 2026-10-20, Tuesday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 4:00 AM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Various Gurdwara Saahebs Across the Delhi" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY1Mg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Details to follow...</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQ3Mw==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Various Gurdwara Sahibs in Indianapolis</h4><h4 class="prog-st">Indianapolis (IN)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-16, Friday To 2026-10-18, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:30 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQ3Mw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>Details to follow...</p><div class = "prg-poster"><a href = "Media/ProgramPoster/INDYPOSTER2026.png" target = "_blank"><img src = "Media/ProgramPoster/INDYPOSTER2026.png"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzOQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-17, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzOQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDExMw==">Akhand Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Sikh Gudwara San Jose</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;3636 Gurdwara Ave, San Jose, CA 95148</a></h4><h4 class="prog-st">Bay Area (CA)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-17, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 9:00 PM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDExMw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;<span style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;Open Sans&quot;, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">Please join &quot;https://akj.org/bayarea Akhand Keertan Programs&quot; WhatsApp group for reminders by asking for invite from local sangat.&nbsp;</span></p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYwMg==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Boston</h4><h4 class="prog-st">NY/NJ/CT (Massachusetts)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-22, Thursday To 2026-10-25, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYwMg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzOA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-24, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzOA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYxOA==">Raensabaayee Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Guru Nanak Gurdwara</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Guru Nanak Gurdwara Wakefield Rd Bradford BD4 7DS" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Guru Nanak Gurdwara Wakefield Rd Bradford BD4 7DS</a></h4><h4 class="prog-st">Bradford (West Yorkshire)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Guru Nanak Gurdwara Wakefield Rd Bradford BD4 7DS" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-24, Saturday To 2026-10-25, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Guru Nanak Gurdwara Wakefield Rd Bradford BD4 7DS" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYxOA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQ5OA==">Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Coventry</h4><h4 class="prog-st">Coventry (West Midlands)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-26, Monday To 2026-11-01, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQ5OA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v">
+<p class="MsoNormal"><span style="mso-ansi-language:EN-GB">Bhai Aman Singh +44 7459 444 022<o:p></o:p></span></p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzNw==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-10-31, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzNw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzNg==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-07, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzNg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0MA==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Various locations across RDU (North Carolina)</h4><h4 class="prog-st">Durham (NC)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-12, Thursday To 2026-11-15, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:00 PM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0MA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><div class = "prg-poster"><a href = "Media/ProgramPoster/f07701b05b684f9e8964835ccee83938.jpeg" target = "_blank"><img src = "Media/ProgramPoster/f07701b05b684f9e8964835ccee83938.jpeg"></a></div></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzNQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-14, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzNQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDQ5OQ==">Raensabaayee Keertan</a></h4><h4 class="prog-lc">Guru Nanak Dev Ji Gurpurab</h4><h4 class="prog-lc">Barking</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Gurdwara Singh Sabha London East, 1 Gurdwara Way, BARKING, IG11 8JD" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gurdwara Singh Sabha London East, 1 Gurdwara Way, BARKING, IG11 8JD</a></h4><h4 class="prog-st">Ilford (South UK )</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Gurdwara Singh Sabha London East, 1 Gurdwara Way, BARKING, IG11 8JD" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-14, Saturday To 2026-11-15, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Gurdwara Singh Sabha London East, 1 Gurdwara Way, BARKING, IG11 8JD" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDQ5OQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;<span style="font-size:12.0pt;font-family:&quot;Cambria&quot;,serif;&#10;mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&quot;MS Mincho&quot;;&#10;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-latin;&#10;mso-bidi-font-family:Raavi;mso-bidi-theme-font:minor-bidi;mso-ansi-language:&#10;EN-GB;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">Bhai Manchet Singh +44 7939 635 265</span></p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzNA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-21, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzNA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=MzcwMQ==">Akhand Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Sikh Gurdwara San Jose</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148, USA" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;3636 Gurdwara Ave, San Jose, CA 95148, USA</a></h4><h4 class="prog-st">Bay Area (CA)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148, USA" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-21, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 6:00 PM to 9:00 PM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"><a href='mailto:sevaa@isangat.org'>AKJ Bay Area California</a>: 503 929 4252 | 408 540 6680<br> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/3636 Gurdwara Ave, San Jose, CA 95148, USA" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=MzcwMQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;<span style="caret-color: rgb(112, 112, 112); color: rgb(112, 112, 112); font-family: Tahoma, Arial, Verdana, sans-serif; font-size: 11px;">&nbsp;</span><span style="caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Open Sans, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);">Please join &quot;https://akj.org/bayarea Akhand Keertan Programs&quot; WhatsApp group for reminders by asking for invite from local sangat.&nbsp;</span></p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzMw==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-11-28, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzMw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzMg==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-05, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzMg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUwMA==">Raensabaayee Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Bradford</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Gurdwara Singh Sabha BRADFORD, Grant Street, BD3 9HD" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Gurdwara Singh Sabha BRADFORD, Grant Street, BD3 9HD</a></h4><h4 class="prog-st">Bradford (North UK)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Gurdwara Singh Sabha BRADFORD, Grant Street, BD3 9HD" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-05, Saturday To 2026-12-06, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 7:00 PM to 5:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"><a href='mailto:'>Bhai. Kulwinder Singh (Bradford)</a>: +44 7576 278552<br> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Gurdwara Singh Sabha BRADFORD, Grant Street, BD3 9HD" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUwMA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzMQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-12, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzMQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYxOQ==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Sri Guru Singh Sabha Coventry</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Coventry 47-49 Cross Rd, Coventry CV6 5GR" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;Sri Guru Singh Sabha Coventry 47-49 Cross Rd, Coventry CV6 5GR</a></h4><h4 class="prog-st">Coventry (West Midlands)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Coventry 47-49 Cross Rd, Coventry CV6 5GR" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-14, Monday To 2026-12-20, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 4:00 AM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/Sri Guru Singh Sabha Coventry 47-49 Cross Rd, Coventry CV6 5GR" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYxOQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUzMA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-19, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUzMA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDY0Nw==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc">In Loving Memory of Maataa Gujar Kaur Jee, Chaar Saahebzaade and other Shaheed Soormey</h4><h4 class="prog-lc">Various Gurudwara Saahebs Across the GTA</h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-21, Monday To 2026-12-26, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDY0Nw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;Details to follow...</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyOQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-26, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyOQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDU4Mg==">Sree Akhand Paatth Saaheb</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Toronto Sikh Education Center</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Caledon" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;13230 Centerville Creek Road, Caledon</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Caledon" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2026-12-30, Wednesday To 2027-01-01, Friday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 5:00 AM to 10:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/13230 Centerville Creek Road, Caledon" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDU4Mg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"><p>&nbsp;Benti Karta: Bhai Jasdeep Singh Jee</p></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyOA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-01-02, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyOA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyNw==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-01-09, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyNw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyNg==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-01-16, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyNg=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyNQ==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-01-23, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyNQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyNA==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-01-30, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyNA=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDUyMw==">Simran and Aasaa Dee Vaar Keertan</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Gurdwara Ontario Khalsa Darbar Dixie Road (Hall 5)</h4><h4 class="prog-st"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;7080 Dixie Rd, Mississauga, ON L5S 1B7</a></h4><h4 class="prog-st">Toronto (ON)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-02-06, Saturday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 3:00 AM to 9:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/7080 Dixie Rd, Mississauga, ON L5S 1B7" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDUyMw=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div> <div class="prog-div-rep"> <div class="p_detail">  <div class="prog_detail"><h4 class="prog-name"><a href="programdetail.php?q=NDYzMQ==">Annual Akhand Keertan Smaagam</a></h4><h4 class="prog-lc"></h4><h4 class="prog-lc">Various Gurdwaras</h4><h4 class="prog-st">Detroit (MI)</h4><h4 class="prog-loc-btn"><a href="https://www.google.com/maps/place/" target="_blank" class="hidden-xs"><img  alt="View Location" title="View Location" src="images/view-locate.png"></a></h4> </div>  <div class="prog_detail prog-sch"> <h4 class="prog-date"><i class="fa fa-calendar" aria-hidden="true"></i> 2027-06-02, Wednesday To 2027-06-06, Sunday</h4><h4 class="prog-time"> <i class="fa fa-clock-o" aria-hidden="true"></i> 4:00 AM to 4:00 AM</h4> </div> <div class="prog_contact"> <p class="prog-sevva hidden-xs"> </p> <h4 class="prog-mob-info hidden-xs"> </h4></div><div class="prog_view_dtl"><a href="https://www.google.com/maps/place/" target="_blank" class="res-loc-btn hidden-lg hidden-md hidden-sm"><img  alt="View Location" title="View Location" src="images/view-locate.png">
+			</a><a href="programdetail.php?q=NDYzMQ=="><img  alt="View Programs" title="View Programs" src="images/view-detail.png"></a> </div> </div><div class="detail-v"></div> </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            </div>
+
+                            <!--end programs new design-->
+
+                            <link href='include/calendar/calendar.css' rel='stylesheet' />
+                            <!-- <link href='include/cal/fullcalendar.css' rel='stylesheet' />
+                             <link href='include/calendar/calendar.css' rel='stylesheet' />
+                             <link href='include/cal/fullcalendar.print.css' rel='stylesheet' media='print' />-->
+                            
+                                <script>
+                                    /*go to any selected date*/
+									
+									
+									
+									 function set_cntrysession(val)
+											{
+									
+												var selected = '';
+												xajax_set_cntrysession(val, selected);
+											}
+                                    function gotodate(selectdate,srch_loc)
+                                    {
+                                        var res = selectdate.split("-");
+                                        var year = res[0];
+                                        var month = res[1];
+                                        var date = res[2];
+                                        var srchLoc="";
+                                        if(srch_loc!=''){
+                                          var srchLoc= "&srch_loc="+srch_loc; 
+                                        }
+                                        
+                                        window.location.href = "programs.php?srch_type_cal=cal&month=" + month + "&year=" + year + "&day=" + date+srchLoc;
+                                    }
+                                    /*go to any selected date*/
+                                    function filterMonth(location)
+                                    {
+									
+                                        var selected = '';
+                                        
+                                        xajax_filterMonth(location, selected);
+                                    }
+									
+									 
+
+                                </script>
+								
+								
+								<script>
+									$(document).ready(function(){
+										$("#gridlink").click(function() {
+											$("#divlist").hide();
+											$("#divgrid").show();
+										});
+										$("#listlink").click(function() {
+											$("#divlist").show();
+											$("#divgrid").hide();
+										});
+									})
+									
+									$(document).ready(function () {
+										$('.select').selectize({
+											sortField: 'text'
+										});
+									});
+								</script>
+								
+								
+                                <!--        <script src='include/cal/lib/moment.min.js'></script>
+                                        <script src='include/cal/lib/jquery.min.js'></script>
+                                        <script src='include/cal/lib/jquery-ui.custom.min.js'></script>
+                                        <script src='include/cal/fullcalendar.min.js'></script>-->
+
+                                <!-- <script>
+                                     $(document).ready(function () {
+                                         var date = new Date();
+                                         var d = date.getDate();
+                                         var m = date.getMonth();
+                                         var y = date.getFullYear();
+ 
+                                         $('#external-events .fc-event').each(function () {
+                                             $(this).data('event', {
+                                                 title: $.trim($(this).text()),
+                                                 stick: true,
+                                             });
+ 
+                                             $(this).draggable({
+                                                 zIndex: 999,
+                                                 revert: true,
+                                                 revertDuration: 0
+                                             });
+                                         });
+ 
+                                         $('#calendar').fullCalendar({
+                                      
+                                             header: {
+                                                 right: 'prev,next,today',
+                                                 center: 'title',
+                                                 left: ''
+                                             },
+                                             events: "events.php",
+                                             editable: true,
+                                             //droppable: true,  
+                                             //hiddenDays:[0,6], 
+                                             //weekNumbers: true,
+                                             selectable: true,
+                                             selectHelper: true,
+                                             select: function (start, end, allDay) {
+ 
+                                                 //$('#promptid').modal('show');
+ 
+ 
+                                                 // $('#startid').datepicker();
+ 
+                                                 var start = moment(start).format('MM/DD/YYYY');
+                                                 //var end=moment(end).format('MM/DD/YYYY');
+                                                 var end = moment(start).format('MM/DD/YYYY');
+                                                 console.log(start);
+ 
+ 
+                                                 document.getElementById('start').value = start;
+                                                 document.getElementById('end').value = end;
+                                                 document.getElementById('title').value = "";
+ 
+                                                 $('#start').datepicker("setDate", start);
+                                                 $('#end').datepicker("setDate", end);
+ 
+                                             },
+                                             eventResize: function (event, delta) {
+ 
+                                                 $('.loading').css("display", "block");
+                                                 var start = moment(event.start).format('MM/DD/YYYY');
+                                                 var end = moment(event.end).format('MM/DD/YYYY');
+                                                 //event.title;			 
+                                                 if (event.id) {
+                                                     $.ajax({
+                                                         url: 'update_events.php',
+                                                         data: 'start=' + start + '&id=' + event.id + '&end=' + end,
+                                                         type: "POST",
+                                                         success: function (json) {
+                                                             alert("Updated Successfully");
+                                                             $("#calendar").find(".fc-time").remove();
+                                                         }
+                                                     });
+                                                 } else {
+                                                     alert('Refresh page');
+                                                 }
+                                                 $('.loading').css("display", "none");
+                                             },
+                                             eventDrop: function (event, delta) {
+                                                 $('.loading').css("display", "block");
+                                                 var start = moment(event.start).format('MM/DD/YYYY');
+                                                 var end = moment(event.end).format('MM/DD/YYYY');
+ 
+                                                 if (event.id) {
+ 
+                                                     $.ajax({
+                                                         url: 'update_events.php',
+                                                         data: 'start=' + start + '&id=' + event.id + '&end=' + end,
+                                                         type: "POST",
+                                                         success: function (json) {
+                                                             alert("Updated Successfully");
+                                                             $("#calendar").find(".fc-time").remove();
+                                                         }
+                                                     });
+                                                 } else {
+                                                     alert('Refresh page');
+                                                 }
+                                                 $('.loading').css("display", "none");
+                                             },
+                                             eventClick: function (event) {
+                                                 $('.loading').css("display", "block");
+                                                 var decision = confirm("Are you sure want to delete this record?");
+                                                 if (decision && event.id) {
+ 
+                                                     $.ajax({
+                                                         type: "POST",
+                                                         url: "delete_cal.php",
+                                                         data: "&id=" + event.id,
+                                                         success: function (json) {
+                                                             $('#calendar').fullCalendar('removeEvents', event.id);
+                                                             alert("Deleted Successfully");
+                                                         }
+                                                     });
+                                                 }
+                                                 $('.loading').css("display", "none");
+                                             },
+                                             eventRender: function (event, element) {
+                                                 var dataToFind = moment(event.start).format('MM/DD/YYYY');
+                                                 $("td[data-date='" + dataToFind + "']").addClass(event.classname);
+                                                 $(element).find(".fc-time").remove();
+ 
+                                             }
+ 
+ 
+ 
+                                         });
+                                     });
+ 
+                                    
+ 
+                                 </script>-->
+                            
+<!----footer------->
+<section class="contry_bute">
+    <div class="clearfix"></div>
+    <span class="horizontal-line"><hr></span>	
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-12 col-lg-12 organigation_sec">
+                <div class="smagm_srch">
+                    <a href="https://www.akj.org/newsletter.php"><button type="button" class="btn btn-default">Join our Mailing List</button></a>
+                    <a href="contribute.php"><button type="button" class="btn btn-primary">Make Contribution</button></a>
+                </div>
+                <h1>This site and organization has allegiance to Sri Akal Takht Sahib.</h1>
+            </div>
+        </div>
+    </div>
+</section>	
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="social_footer">
+                <div class="soc-left"><hr/></div>
+                <div class="soc-right"><hr/></div> 
+                <ul>
+                    <li><a href="https://www.facebook.com/AkhandKeertaneeJathaa" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.youtube.com/user/akjdotorg" target="_blank"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="https://twitter.com/akjdotorg" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://soundcloud.com/akjdotorg" target="_blank"><i class="fa fa-soundcloud" aria-hidden="true"></i></a></li>
+                    <li><a href="https://plus.google.com/+akjorg" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/akjdotorg/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+
+                </ul>
+            </div>
+            <div class="footer_navigations">
+
+                <ul class="nav_bar_footer">
+                    <li><a href="/programs.php">Upcoming Programs </a></li>
+                    <li><a href="/keertan.php">Keertan</a></li>
+                    <li><a href="/livestreaming.php">Live Broadcast</a></li>
+                    <li><a href="/liveradio.php">AKJ.org Radio </a></li>
+                    <li><a href="/literature.php">Literature </a></li>
+                    <li><a href="/gallery.php">Gallery</a></li>
+                    <li><a href="/blog.php">Blog</a></li>
+                    <li><a href="/contribute.php">Contribute</a></li>
+                    <li><a href="/about.php">About</a></li>
+                    <li><a href="/contact.php">Contact</a></li>
+
+
+                </ul>
+
+                <a id="toTop"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+
+                <p>&#169; 1960-2026 Akhand Keertanee Jathaa (AKJ.Org). All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+
+
+
+<!-- Bootstrap Core JavaScript -->
+
+<script src="/include/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js" integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css" integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
+
+    <script>
+        function set_cntrysession(countryid)
+        {
+            $("#cntry_id").val(countryid);
+            $("#cntry_session_form").submit();
+        }
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 800) {
+                $("#toTop").fadeIn();
+            } else {
+                $("#toTop").fadeOut();
+            }
+            if ($(window).scrollTop() + $(window).height() < $(document).height() - $("#footer").height()) {
+                $('#toTop').css("position", "fixed");    //resetting it
+                $('#toTop').css("bottom", "28px"); //resetting it
+            } else {
+                $('#toTop').css("position", "fixed"); // make it related
+                $('#toTop').css("bottom", "28px"); // 60 px, height of #toTop
+            }
+        });
+
+        $("#toTop").click(function () {
+            $("html, body").animate({scrollTop: 0}, 1000);
+        });
+    </script>
+
+
+
+</body>
+</html>
+  
+<style>
+.detail-v p {
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+}
+</style>
