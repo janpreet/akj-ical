@@ -30,8 +30,12 @@ jobs:
       - name: Run tests
         run: python -m pytest -q
 
+      # Fails the job (before the commit step) if akj.org served us nothing
+      # usable, so a blocked fetch can never overwrite a good calendar.
       - name: Build calendar
-        run: python build_ics.py -o akj-programs.ics 2> warnings.txt; cat warnings.txt
+        run: |
+          set -o pipefail
+          python build_ics.py -o akj-programs.ics 2> >(tee warnings.txt >&2)
 
       - name: Commit if changed
         run: |

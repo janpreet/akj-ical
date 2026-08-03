@@ -221,3 +221,33 @@ def _single_event(uid="4586", dtstart="20260808T200000", dtend="20260808T020000"
         "END:VEVENT\n"
         "END:VCALENDAR\n"
     )
+
+
+# --- empty-result guard ----------------------------------------------------
+
+def test_empty_export_produces_no_events():
+    """A blocked or changed page must not silently yield a valid empty feed."""
+    ics, _ = build_ics.build("", "BEGIN:VCALENDAR\nEND:VCALENDAR\n", now=NOW)
+    assert ics.count("BEGIN:VEVENT") == 0
+    assert "BEGIN:VCALENDAR" in ics
+
+
+def test_main_refuses_to_write_when_below_min_events(tmp_path, monkeypatch):
+    monkeypatch.setattr(build_ics, "fetch_html", lambda: "")
+    monkeypatch.setattr(
+        build_ics, "fetch_export", lambda: "BEGIN:VCALENDAR\nEND:VCALENDAR\n"
+    )
+    out = tmp_path / "out.ics"
+    out.write_text("PREVIOUS GOOD CALENDAR")
+    monkeypatch.setattr("sys.argv", ["build_ics.py", "-o", str(out)])
+    assert build_ics.main() == 2
+    assert out.read_text() == "PREVIOUS GOOD CALENDAR"
+
+
+def test_main_writes_when_events_are_present(tmp_path, monkeypatch):
+    monkeypatch.setattr(build_ics, "fetch_html", lambda: HTML)
+    monkeypatch.setattr(build_ics, "fetch_export", lambda: EXPORT)
+    out = tmp_path / "out.ics"
+    monkeypatch.setattr("sys.argv", ["build_ics.py", "-o", str(out)])
+    assert build_ics.main() == 0
+    assert out.read_text().count("BEGIN:VEVENT") == 61

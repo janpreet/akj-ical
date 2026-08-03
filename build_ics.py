@@ -208,13 +208,36 @@ def main():
         action="store_true",
         help="exit non-zero if any event's timezone could not be resolved",
     )
+    parser.add_argument(
+        "--min-events",
+        type=int,
+        default=1,
+        help="refuse to write the calendar if fewer events than this were found",
+    )
     args = parser.parse_args()
 
-    ics, warnings = build(fetch_html(), fetch_export())
+    html = fetch_html()
+    export = fetch_export()
+    print(f"fetched listing: {len(html)} bytes, export: {len(export)} bytes")
+    print(f"listing blocks: {html.count('prog-div-rep')}, "
+          f"export events: {export.count('BEGIN:VEVENT')}")
+
+    ics, warnings = build(html, export)
+    count = ics.count("BEGIN:VEVENT")
+
+    # An empty or suspiciously small result means akj.org served us something
+    # other than the listing. Never overwrite a good calendar with that.
+    if count < args.min_events:
+        print(
+            f"ERROR: only {count} events (need {args.min_events}); "
+            "refusing to write. akj.org may have blocked or changed the page.",
+            file=sys.stderr,
+        )
+        return 2
+
     with open(args.output, "w", encoding="utf-8", newline="") as handle:
         handle.write(ics)
 
-    count = ics.count("BEGIN:VEVENT")
     print(f"wrote {args.output}: {count} events")
     for warning in warnings:
         print(f"WARNING: {warning}", file=sys.stderr)
