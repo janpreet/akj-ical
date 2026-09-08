@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:4649@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260904T100000Z
 DTEND:20260907T110000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Gurdwara Sahib of Stockton
@@ -19,19 +19,8 @@ DESCRIPTION:Annual Stockton Calilfonia Smagam Sep 4th - Sept 7th.\n\nLocal
 URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY0OQ==
 END:VEVENT
 BEGIN:VEVENT
-UID:4545@akj.org
-DTSTAMP:20260905T063725Z
-DTSTART:20260905T070000Z
-DTEND:20260905T130000Z
-SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
-  Dixie Road (Hall 5)
-LOCATION:7080 Dixie Rd  Mississauga  ON L5S 1B7\, Toronto (ON)
-DESCRIPTION:Local start: 2026-09-05 03:00 AM America/Toronto
-URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDU0NQ==
-END:VEVENT
-BEGIN:VEVENT
 UID:4667@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260905T090000Z
 DTEND:20260907T130000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Toronto Sikh Education Center
@@ -43,38 +32,8 @@ DESCRIPTION:Sept 5: 5am - 7am - Aasa di vaar Keertan\n\n7:30am - Akhand Pat
 URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY2Nw==
 END:VEVENT
 BEGIN:VEVENT
-UID:4669@akj.org
-DTSTAMP:20260905T063725Z
-DTSTART:20260905T210000Z
-DTEND:20260906T010000Z
-SUMMARY:Akhand Keertan at Staten Island Gurdwara Sahib
-LOCATION:20 Oregon Rd  Staten Island  NY 10305\, NY/NJ/CT (NY)
-DESCRIPTION:Local start: 2026-09-05 05:00 PM America/New_York
-URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY2OQ==
-END:VEVENT
-BEGIN:VEVENT
-UID:4639@akj.org
-DTSTAMP:20260905T063725Z
-DTSTART:20260905T133000Z
-DTEND:20260905T223000Z
-SUMMARY:Raensabaayee Keertan at Gurudwara Sahib Hans Kalan\,
-LOCATION:Gurudwara Sahib Hans Kalan\, Chchrari (PB)
-DESCRIPTION:Local start: 2026-09-05 07:00 PM Asia/Kolkata
-URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDYzOQ==
-END:VEVENT
-BEGIN:VEVENT
-UID:4381@akj.org
-DTSTAMP:20260905T063725Z
-DTSTART:20260905T230000Z
-DTEND:20260906T070000Z
-SUMMARY:Raensabaayee Keertan at Jaswant Singh Khalra Khalsa School
-LOCATION:255 Queen St E  Brampton  ON L6W 2B8\, Toronto (ON)
-DESCRIPTION:Local start: 2026-09-05 07:00 PM America/Toronto
-URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDM4MQ==
-END:VEVENT
-BEGIN:VEVENT
 UID:4644@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260906T233000Z
 DTEND:20260912T223000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Sector 34-D\, Chandigarh
@@ -84,7 +43,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY0NA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4648@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260911T080000Z
 DTEND:20260913T140000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Toronto Sikh Education Centre
@@ -97,7 +56,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY0OA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4544@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260912T070000Z
 DTEND:20260912T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -108,7 +67,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDU0NA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4295@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260913T011500Z
 DTEND:20260913T041500Z
 SUMMARY:Akhand Keertan at Silicon Valley Gurdwara Sahib - Santa Clara
@@ -118,7 +77,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDI5NQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4672@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260916T123000Z
 DTEND:20260919T223000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Gurdwara Sahib\, Urban Estate\, Ka
@@ -129,7 +88,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3Mg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4196@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260918T220000Z
 DTEND:20260920T080000Z
 SUMMARY:Akhand Keertan Smaagam at Gurdwara Khalsa Prakash Windsor
@@ -140,7 +99,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDE5Ng==
 END:VEVENT
 BEGIN:VEVENT
 UID:4497@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260918T180000Z
 DTEND:20260920T040000Z
 SUMMARY:Akhand Keertan Smaagam at Slough
@@ -152,7 +111,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDQ5Nw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4543@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260919T070000Z
 DTEND:20260919T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -163,7 +122,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDU0Mw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4371@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260920T010000Z
 DTEND:20260920T040000Z
 SUMMARY:Akhand Keertan at Sikh Gudwara San Jose
@@ -175,7 +134,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDM3MQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4643@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260925T100000Z
 DTEND:20260927T130000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Bhai Sandeep Singh Jee's Residence
@@ -186,7 +145,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY0Mw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4673@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260925T133000Z
 DTEND:20260926T223000Z
 SUMMARY:Akhand Keertan Smaagam at Gurudwara Sant Bhai Suhel Singh Jee
@@ -197,7 +156,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3Mw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4542@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260926T070000Z
 DTEND:20260926T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -208,7 +167,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDU0Mg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4654@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20260930T233000Z
 DTEND:20261003T223000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Gurudwara Sri Guru Gobind Singh Ji
@@ -220,7 +179,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY1NA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4661@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261001T220000Z
 DTEND:20261004T080000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Gurdwara Guru Nanak Darbar\, South
@@ -231,7 +190,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY2MQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4658@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261002T070000Z
 DTEND:20261004T133000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Toronto Sikh Education Center
@@ -242,7 +201,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY1OA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4541@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261003T070000Z
 DTEND:20261003T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -254,7 +213,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDU0MQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4651@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261009T123000Z
 DTEND:20261010T223000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Gurudwara Sri Arjun Dev Sahib Ji\,
@@ -266,7 +225,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY1MQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4662@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261010T070000Z
 DTEND:20261010T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -277,7 +236,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY2Mg==
 END:VEVENT
 BEGIN:VEVENT
 UID:3075@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261010T090000Z
 DTEND:20261012T140000Z
 SUMMARY:Sree Akhand Paatth Saaheb at KM School
@@ -290,7 +249,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=MzA3NQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4604@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261010T220000Z
 DTEND:20261011T080000Z
 SUMMARY:Raensabaayee Keertan at Residence of Bh. Jaswinder Singh Jee (Delaw
@@ -301,7 +260,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDYwNA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4294@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261011T013000Z
 DTEND:20261011T100000Z
 SUMMARY:Raensabaayee Keertan at Silicon Valley Gurdwara Sahib - Santa Clara
@@ -311,7 +270,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDI5NA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4257@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261011T000000Z
 DTEND:20261011T070000Z
 SUMMARY:Raensabaayee Keertan at  Sri Gurudwara Jot Parkash Sahib
@@ -321,19 +280,52 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDI1Nw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4652@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261013T223000Z
 DTEND:20261019T233000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Various Gurdwara Saahebs Across th
  e Delhi
 LOCATION:Various Gurdwara Saahebs Across the Delhi\, Delhi (Delhi)
-DESCRIPTION:Details to follow...\n\nLocal start: 2026-10-14 04:00 AM Asia/K
- olkata
+DESCRIPTION:\n\nWaheguru Jee Ka Khalsa! Waheguru Jee Ki Fateh!\n\nAs you ar
+ e kindly aware, Gurmukh piare Satkarjog Bhai Sahib Bhai Randhir Singh Jee
+  used to hold Annual Akhand Keertan Samagam every year during Dushehra Ho
+ lidays in Delhi (India). The said samagam continues to be held in Delhi f
+ or the last about 74/75 years. This year, the said Samagam shall be held 
+ from 14th to 20th October 2026 as per the details given below. Please ens
+ ure your kind participation positively in this programme and oblige us wi
+ th your charan-dhooree.\n\n\n\n14th to 20th October 2026 Annual Akhand Ke
+ ertan Samagam Delhi dates are as followed:\n\n\n\nWednesday, October 14, 
+ 2026\n\n\n\nKeertan Asaa Ki Vaar 5:00 AM to 7:30 AM and Arambh Shree Akha
+ nd Path Sahib\n\n\n\n@ Khalsa School, Dev Nagar, Karol Bagh, New Delhi\n\
+ n\n\n\n\nFriday, October 16, 2026\n\n\n\n\n\nMorning\n\n5:00 AM -- Samapt
+ i Shree Akhand Path Sahib Keertan Asaa Ki Vaar 5:00 AM to 2:00 PM\n\n\n\n
+ @ Khalsa School, Dev Nagar, Karol Bagh, New Delhi\n\n\n\n\n\nEvening\n\n7
+ :00 PM to 10.00 PM Akhand Keertan\n\n\n\n@ Gurdwara Shri Guru Singh Sabha
+ , Karol Bagh, Delhi.\n\n\n\n\n\nSaturday, October 17, 2026\n\n\n\n\n\nMor
+ ning\n\n5:00 AM to 2:30 PM Keertan Asaa Ki Vaar &amp; Akhand Keertan,\n\n
+ \n\n@ Gurdwara Nanak Piaaoo Sahib\n\n\n\n\n\n\n\n\n\nEvening\n\n7:00 PM t
+ o 10:00 PM Akhand Keertan\n\n\n\n@ Gurdwara Moti Baag Sahib\n\n\n\n\n\n\n
+ \nSunday, October 18, 2026\n\n\n\nMorning\n\n6:00 AM to 2:30 PM, Keertan 
+ Asaa Ki Vaar &amp; Akhand Keertan\n\n\n\n@ Gurdwara Sis Ganj Sahib\n\n\n\
+ n\n\nEvening\n\n7:00 PM to 9:30 PM Akhand Keertan\n\n\n\n@ Gurdwara Shri 
+ Bangla Sahib.\n\n\n\n\n\nMonday, October 19, 2026\n\n\n\nMorning\n\n5:00 
+ AM to 2:30 PM, Keertan Asaa Ki Vaar &amp; Akhand Keertan\n\n\n\n@ Gurdwar
+ a Shri Bangla Sahib\n\n\n\n\n\nEvening - Reansabai Keertan\n\n(Oct 19, 20
+ 26 to Oct 20, 2026) mon-Tue\n\n7:00 PM to 5:00 AM Keertan Reansabaayee,\n
+ \n\n\nGurdwara Shri Rakab Ganj Sahib, (Lakhi Shah Vanjara Hall)\n\n\n\nAm
+ rit Sanchar\n\nMonday, October 19, 2026, 2:00PM onwards @ Khalsa School, 
+ Dev Nagar, Karol Bagh, New Delhi\n\n\n\nNote: In general, the boarding an
+ d lodging arrangements shall be made at Khalsa School, Dev Nagar.\n\n\n\n
+ \n\n\n\nContacts: 9818343498, 9899006748, 9810363924, 9810350383\n\n\n\nE
+ nquiry: 9899115568, 7499882027, 9810915584, 9891620560, 9818081715\n\n\n\
+ nAccommodation: 9773771445, 9216673449, 9999115112\n\n\n\nFor More Detail
+ s Logon to www.akj.org\n\n\n\n\n\nLive Broadcast: www.AKJ.org\n\nLocal st
+ art: 2026-10-14 04:00 AM Asia/Kolkata
 URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY1Mg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4671@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261016T090000Z
 DTEND:20261018T130000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Toronto Sikh Education Center
@@ -344,7 +336,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3MQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4473@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261016T213000Z
 DTEND:20261018T080000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Various Gurdwara Sahibs in Indiana
@@ -356,7 +348,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDQ3Mw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4539@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261017T070000Z
 DTEND:20261017T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -367,7 +359,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzOQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4113@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261018T010000Z
 DTEND:20261018T040000Z
 SUMMARY:Akhand Keertan at Sikh Gudwara San Jose
@@ -379,7 +371,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDExMw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4602@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261022T220000Z
 DTEND:20261025T090000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Boston
@@ -388,8 +380,19 @@ DESCRIPTION:Local start: 2026-10-22 06:00 PM America/New_York
 URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDYwMg==
 END:VEVENT
 BEGIN:VEVENT
+UID:4675@akj.org
+DTSTAMP:20260908T064214Z
+DTSTART:20261023T123000Z
+DTEND:20261024T223000Z
+SUMMARY:Akhand Keertan Smaagam at G. Paatshahi Novi\, Manji Sahib\, Nawan S
+ hahar
+LOCATION:G. Paatshahi Novi  Manji Sahib  Nawan Shahar\, NawanShahar (PB)
+DESCRIPTION:Local start: 2026-10-23 06:00 PM Asia/Kolkata
+URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3NQ==
+END:VEVENT
+BEGIN:VEVENT
 UID:4538@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261024T070000Z
 DTEND:20261024T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -400,7 +403,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzOA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4618@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261024T180000Z
 DTEND:20261025T040000Z
 SUMMARY:Raensabaayee Keertan at Guru Nanak Gurdwara
@@ -411,7 +414,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDYxOA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4498@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261026T190000Z
 DTEND:20261101T050000Z
 SUMMARY:Akhand Keertan Smaagam at Coventry
@@ -421,8 +424,18 @@ DESCRIPTION:\n\nBhai Aman Singh +44 7459 444 022\n\nLocal start: 2026-10-26
 URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDQ5OA==
 END:VEVENT
 BEGIN:VEVENT
+UID:4676@akj.org
+DTSTAMP:20260908T064214Z
+DTSTART:20261029T133000Z
+DTEND:20261031T223000Z
+SUMMARY:Annual Akhand Keertan Smaagam at Gurudwara Sahib\, Dayalpur
+LOCATION:Gurudwara Sahib  Dayalpur\, Dayalpur (PB)
+DESCRIPTION:Local start: 2026-10-29 07:00 PM Asia/Kolkata
+URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3Ng==
+END:VEVENT
+BEGIN:VEVENT
 UID:4537@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261031T070000Z
 DTEND:20261031T130000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -433,7 +446,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzNw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4665@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261031T090000Z
 DTEND:20261031T150000Z
 SUMMARY:Nitname and Aasaa Dee Vaar Keertan at 14 Wilbur St\, Plantsville\, 
@@ -446,7 +459,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY2NQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4670@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261105T230000Z
 DTEND:20261107T080000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Residence of Bhai Jatinder Singh Jee
@@ -456,7 +469,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3MA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4536@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261107T080000Z
 DTEND:20261107T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -467,7 +480,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzNg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4640@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261112T220000Z
 DTEND:20261115T100000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Various locations across RDU (Nort
@@ -478,7 +491,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY0MA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4535@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261114T080000Z
 DTEND:20261114T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -489,7 +502,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzNQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4499@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261114T190000Z
 DTEND:20261115T050000Z
 SUMMARY:Raensabaayee Keertan at Barking
@@ -501,7 +514,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDQ5OQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4534@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261121T080000Z
 DTEND:20261121T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -512,7 +525,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzNA==
 END:VEVENT
 BEGIN:VEVENT
 UID:3701@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261122T020000Z
 DTEND:20261122T050000Z
 SUMMARY:Akhand Keertan at Sikh Gurdwara San Jose
@@ -523,8 +536,19 @@ DESCRIPTION:Please join &quot;https://akj.org/bayarea Akhand Keertan Progra
 URL;VALUE=URI:https://www.akj.org/programdetail.php?q=MzcwMQ==
 END:VEVENT
 BEGIN:VEVENT
+UID:4674@akj.org
+DTSTAMP:20260908T064214Z
+DTSTART:20261121T210000Z
+DTEND:20261124T233000Z
+SUMMARY:Annual Akhand Keertan Smaagam at Layalpur Khalsa School\, Nakodar R
+ oad\, Jalandhar
+LOCATION:Layalpur Khalsa School  Nakodar Road  Jalandhar\, Jalandhar (PB)
+DESCRIPTION:Local start: 2026-11-22 02:30 AM Asia/Kolkata
+URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY3NA==
+END:VEVENT
+BEGIN:VEVENT
 UID:4664@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261126T080000Z
 DTEND:20261129T070000Z
 SUMMARY:Akhand Keertan Smaagam at Long Island
@@ -536,7 +560,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY2NA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4533@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261128T080000Z
 DTEND:20261128T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -547,7 +571,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzMw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4532@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261205T080000Z
 DTEND:20261205T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -558,7 +582,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzMg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4500@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261205T190000Z
 DTEND:20261206T050000Z
 SUMMARY:Raensabaayee Keertan at Bradford
@@ -569,7 +593,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUwMA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4531@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261212T080000Z
 DTEND:20261212T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -580,7 +604,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzMQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4619@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261214T040000Z
 DTEND:20261220T040000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Sri Guru Singh Sabha Coventry
@@ -591,7 +615,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDYxOQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4530@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261219T080000Z
 DTEND:20261219T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -602,7 +626,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUzMA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4647@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261221T080000Z
 DTEND:20261226T090000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Various Gurudwara Saahebs Across t
@@ -614,7 +638,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDY0Nw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4529@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261226T080000Z
 DTEND:20261226T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -625,7 +649,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyOQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4582@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20261230T100000Z
 DTEND:20270101T150000Z
 SUMMARY:Sree Akhand Paatth Saaheb at Toronto Sikh Education Center
@@ -636,7 +660,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDU4Mg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4528@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270102T080000Z
 DTEND:20270102T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -647,7 +671,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyOA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4527@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270109T080000Z
 DTEND:20270109T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -658,7 +682,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyNw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4526@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270116T080000Z
 DTEND:20270116T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -669,7 +693,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyNg==
 END:VEVENT
 BEGIN:VEVENT
 UID:4525@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270123T080000Z
 DTEND:20270123T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -680,7 +704,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyNQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4524@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270130T080000Z
 DTEND:20270130T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -691,7 +715,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyNA==
 END:VEVENT
 BEGIN:VEVENT
 UID:4523@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270206T080000Z
 DTEND:20270206T140000Z
 SUMMARY:Simran and Aasaa Dee Vaar Keertan at Gurdwara Ontario Khalsa Darbar
@@ -702,7 +726,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDUyMw==
 END:VEVENT
 BEGIN:VEVENT
 UID:4631@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270602T080000Z
 DTEND:20270606T080000Z
 SUMMARY:Annual Akhand Keertan Smaagam at Various Gurdwaras
@@ -712,7 +736,7 @@ URL;VALUE=URI:https://www.akj.org/programdetail.php?q=NDYzMQ==
 END:VEVENT
 BEGIN:VEVENT
 UID:4655@akj.org
-DTSTAMP:20260905T063725Z
+DTSTAMP:20260908T064214Z
 DTSTART:20270730T070000Z
 DTEND:20270808T090000Z
 SUMMARY:Akhand Keertan Smaagam at Various Gurdwaray in New York
